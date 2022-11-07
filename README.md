@@ -10,3 +10,6 @@ As you can observed current consumpiton is higher in Run mode with higher freque
 
 INA219 sensor provides RAW current, power and voltage data. In the above image, RAW data is compared with USB data.
 Basic regression is applied on the test data, to get equation which provide current in mA, along with voltage in volts and power in mW.
+![current_relation_with_regression](https://user-images.githubusercontent.com/79939325/200432390-4e135330-aa00-4e74-8ffd-bed0e739af11.jpg)
+![power_relation_with_regression](https://user-images.githubusercontent.com/79939325/200432411-480ac3e4-b127-41f1-a8e0-0731e401d4c4.jpg)
+Above are the plots how regression is applied on current and power data which is taken from RAW sensor and USB data.
