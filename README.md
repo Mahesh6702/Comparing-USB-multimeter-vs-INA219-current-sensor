@@ -8,4 +8,5 @@ Intially current is observed in Run mode with different clock frequencies with a
 In the above image connectivity means SPI, I2C, CAN, ADC's, DAC's etc.
 As you can observed current consumpiton is higher in Run mode with higher frequency, So it advisable to run the application in lower frequency. If the application is not needed to run in high frequency.
 
-And then raw current and power data is obtained  from INA219 sensor.
+INA219 sensor provides RAW current, power and voltage data. In the above image, RAW data is compared with USB data.
+Basic regression is applied on the test data, to get equation which provide current in mA, along with voltage in volts and power in mW.
